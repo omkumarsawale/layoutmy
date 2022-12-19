@@ -1,0 +1,29 @@
+
+
+
+
+.btn-secondary{
+    // padding: 20px;
+    // padding: $base-line-padding;
+    // margin: $defulat-margin;
+    // text-transform: uppercase;
+    // margin-top: $default-margin-top;
+    // cursor: pointer;
+
+@include btn-commom;
+
+background-color: $color-yellow-dark;
+color:$color-pink;
+}
+
+.btn-danger{
+    //  padding: 20px;
+    // padding: $base-line-padding;
+    // margin: $defulat-margin;
+    // text-transform: uppercase;
+    // margin-top: $default-margin-top;
+    // cursor: pointer;
+    @include btn-btn-commom;
+    color:$color-yellow ;
+   background-color:$color-blue ;
+}

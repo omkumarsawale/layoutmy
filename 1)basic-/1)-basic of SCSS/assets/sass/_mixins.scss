@@ -1,0 +1,17 @@
+
+
+//  @mixin commom-class-for-button{
+//      color:$color-green;
+//     padding: $default-padding;
+//     margin-top: $default-margin-top;
+//     margin: $default-margin;
+// }
+
+
+@mixin commn-btn2($color){
+    color:$color-green;
+    padding: $default-padding;
+    margin-top: $default-margin-top;
+    margin: $default-margin;
+    background-color: $color;
+}

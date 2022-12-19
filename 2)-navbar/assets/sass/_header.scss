@@ -1,0 +1,74 @@
+
+
+
+.header{
+    background-color: $color-green;
+}
+
+.logo{
+    margin-left: 15px;
+    list-style: none;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: end;
+   
+    &:hover{
+        border-right: solid;
+    }
+    li{
+        margin-left: 15px;
+list-style: none;
+text-align: center;
+margin-top: 50%px;
+padding: 10px;
+&:hover{
+    background-color: $color-pink;
+    border-right: solid;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+   
+}
+    }
+}
+
+
+
+
+
+
+
+.second-navbar{
+    background-color: $color-yellow;
+}
+
+
+.navbar-2{
+    display: flex;
+    justify-content: end;
+    li{
+        list-style: none;
+        padding: 20px;
+       
+        a{
+            text-decoration: none;
+            padding: 20px;
+            text-transform: capitalize;
+            &:hover{
+                background-color: $color-red;
+                padding: 20px;
+                            }
+        }
+    }
+}

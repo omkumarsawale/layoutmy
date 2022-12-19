@@ -1,0 +1,22 @@
+.btn {
+  clip: auto;
+  color: green;
+  padding: 20px;
+  margin-top: 30px;
+  margin: 20px;
+  -webkit-text-decoration: double;
+          text-decoration: double;
+  text-transform: uppercase;
+  background-color: aquamarine;
+}
+
+.btn-1 {
+  color: green;
+  padding: 20px;
+  margin-top: 30px;
+  margin: 20px;
+  text-transform: capitalize;
+  -webkit-box-shadow: 10px solid red;
+          box-shadow: 10px solid red;
+  background-color: aqua;
+}

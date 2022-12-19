@@ -1,0 +1,32 @@
+@import "./var";
+@import"./mixins";
+@import "./buttons";
+@import "./buttons2";
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btn-primary{
+    // padding: 20px;
+    // padding: $base-line-padding;
+    // margin: $defulat-margin;
+    // text-transform: uppercase;
+    // cursor: pointer;
+@include btn-commom;
+
+    color: $color-blue;
+    background-color: $color-blue-darkest;
+}
+// .btn-success{
+//     // cursor: pointer;
+//     // padding: 20px;
+//     // padding: $base-line-padding;
+//     // margin: $defulat-margin;
+//     @include btn-btn-commom;
+//     background-color:$color-blue-light ;
+//     color:$color-grey;
+// }
+
+

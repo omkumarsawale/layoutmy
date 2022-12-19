@@ -1,0 +1,32 @@
+
+
+
+.row{
+   
+   
+    display:flex;
+   
+    [class^="col"]
+    
+    {
+        padding: 0 15px;
+    
+    }
+                
+}
+
+
+.mt-50px{
+    margin-top: 50px;
+}
+
+.col-3{
+    width: 25%;
+}
+
+
+.col-9{
+    width: 75%;
+}
+
+

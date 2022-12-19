@@ -1,0 +1,35 @@
+.btn-secondary {
+  padding: 20px;
+  padding: 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #cccb1e;
+  color: #e17582;
+}
+
+.btn-danger {
+  cursor: pointer;
+  padding: 20px;
+  padding: 20px;
+  margin: 10px;
+  color: #e8e759;
+  background-color: #4444e4;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-primary {
+  padding: 20px;
+  padding: 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #4444e4;
+  background-color: #0f0f6c;
+}

@@ -1,0 +1,35 @@
+@import'./var';
+@import'./mixins';
+@import'./button';
+
+// *{
+
+//     box-sizing: border-box;
+//     padding: 0px;
+//     margin: 0px;
+//     background-color: $color-dark;
+// }
+
+
+
+// .btn-primary{
+//     padding: 20px;
+//     text-transform: uppercase;
+//     border: 1px solid $primary-color;
+//     color: $color-dark;
+//     font-size: $base-font-size;
+//     border-radius: $default-border-radus;
+// }
+
+.btn-1{
+    padding: 20px;
+        text-transform: uppercase;
+      
+       
+}
+
+ .btn-2{
+     padding: 20px;
+     text-transform: uppercase;
+    
+ }

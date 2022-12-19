@@ -1,0 +1,18 @@
+@import('./var');
+@import'./mixins';
+
+@import'./buttons';
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+.btn-primary{
+    background-color: $color-red;
+}
+
+

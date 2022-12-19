@@ -1,0 +1,19 @@
+
+
+
+@mixin btn-commom{
+    
+    padding: 20px;
+     padding: $base-line-padding;
+     margin: $defulat-margin;
+     text-transform: uppercase;
+     cursor: pointer;
+      
+}
+
+@mixin btn-btn-commom{
+    cursor: pointer;
+    padding: 20px;
+    padding: $base-line-padding;
+    margin: $defulat-margin;
+}
